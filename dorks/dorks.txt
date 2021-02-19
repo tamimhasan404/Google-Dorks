@@ -17,7 +17,7 @@ Google Dorks:
 
 /search?query=	         
 
-/?email=	                                  ----------->>> Check once to see more(https://www.openbugbounty.org/blog/devl00p/top-100-xss-dorks)                                                              
+/?email=	                            ||----------->>> Check once to see more(https://www.openbugbounty.org/blog/devl00p/top-100-xss-dorks)                                                              
 /?cat=	                           
 
 /login?redirect_uri=	               
