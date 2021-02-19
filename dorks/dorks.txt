@@ -1,1 +1,178 @@
+                                                                       <<----------------------------------->>                                                                                                                                        
+                                                 {Combine google dorks one to another then you can see their power💪}
+
+
+Google Dorks:
+----------------------------------------------
+    
+    Some common vulnerables parameters
+    
+/?s=  
+
+/search?q= 
+
+/index.php?lang=	
+
+/index.php?page=	                 
+
+/search?query=	         
+
+/?email=	                                  ----------->>> Check once to see more(https://www.openbugbounty.org/blog/devl00p/top-100-xss-dorks)                                                              
+/?cat=	                           
+
+/login?redirect_uri=	               
+
+/connexion?redirect_uri=	
+
+/search/?q=	             
+
+/index.php?pn             
+
+/?lang=	                  
+
+/property/search?uid=	   
+
+/index.php?id=	                             
+                                                                                          
+/search/?search=	        
+                                                 
+-------------------------------------------------                                           
+
+
+
+# With these you can create your own like:
+
+ PARAMETER:
+
+- site: target.com inurl:.php?id=
+
+- site: target.com inurl:.php?user=
+
+- site: target.com inurl:.php?book=
+
+- site: target.com inurl:index.php?id=
+
+
+
+-------------------------------------------- |            
+- login * password =* filetype:xls            
+                                             |       
+- intitle:"Index of..etc" passwd                   ------>>> 💥Password Related Dorks
+                                             |                                                                                                                |
+- index of.etc                               
+---------------------------------------------|
+
+- Site:*.example.com inurl:redirect | inurl:redirect_to | inurl:redirect_uri  ------>>> Dork related with redirection (related report https://medium.com/@nandwanajatin25/story-of-a-uri-based-xss-with-some-simple-google-dorking-e1999254aa55)
+
+- site:target.com filetype:php | filetype:aspx | filetype:swf | filetype:log | filetype:env | filetype:xls | index.php |
+
+- ext:php | intitle:phpinfo "published by the PHP Group"
+
+- site:target.com filetype:aspx
+
+- site:target.com filetype:swf    (Shockwave Flash)
+
+- allintext:username filetype:log
+
+- inurl:/proc/self/cwd
+
+- DB_USERNAME filetype:env
+
+- DB_PASSWORD filetype:enc=v
+
+- site:”target.com” database.yml
+
+- inurl:group_concat(username, filetype:php intext:admin
+
+
+-------------------------------------------------|
+- intitle:"index of" inurl:ftp                                            
+                                                 |                                                                                         
+- site:ftp.*xyz.com "Web File Manager" -www             
+                                                 |    ------->>> Port related dorks
+- filetype:config inurl:web.config inurl:ftp                
+                                                 |
+- intitle:"index of" inurl:smtp  
+-------------------------------------------------| 
+                                   
+- intitle:"index of" inurl:http after:2010
+
+- intitle:"forum" inurl:http after:2018  -->>> (You can also be more specific and and search for online forums that uses HTTP by simply changing the text in the search title.)
+
+- cache:websitename.com     --->>>  Cache related report  https://hackerone.com/reports/3986
+
+------------------------------------------|
+- intitle:”index of” api_key|
+                                          |                                                                                            
+- intitle:”index of” api key                            
+                                          |                                                                                          
+- intitle:”index of” apiKey                                              
+                                          |   ------>>>   API Related dorks                                                                       
+- site:target.com inurl:api_key 
+                                          |
+- api.target.com 
+                                          |
+- api.*target.com                                                            
+------------------------------------------|
+
+-----------------------------------------------|
+- site:target.com inurl:email                  |                                                                                                                                                                                           
+- filetype:xls inurl:"email.xls" site:.bd      |  {{To specific country you can also use .uk or .pk or .bd ect}}
+
+- site:.edu filetype:xls inurl:"email.xls"     |
+                                               
+- site:target.com inurl:'@yahoo.com'           |         
+                                                     ---->>> Email related dorks
+- site:target.com inurl:'@yahoo.com'           |
+
+- site:target.com inurl:'@live.com'            |
+
+- site:target.com inurl:'@gmail.com'           |
+                                                                                      
+-----------------------------------------------|
+
+
+- site: target.com inurl:login.php         
+- site: target.com intext: “login”      
+- site: target.com inurl:portal.php
+- site: target.com inurl:register.php
+
+
+- site:xyz.com ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv | ext:txt | ext:html | ext:php
+
+ext:txt
+
+Note: In most cases you will find robots.txt or nothing 
+
+But sometimes it's give you really osam thing
+
+- site:xyz.com ext:doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml | atom
+
+- site:*.mil ext:ppt intext:password   (ppt=power point file)
+
+- site: target.com filetype:txt
+
+- intitle: index of mp3
+
+- intext: .mp4
+
+- site: target.com inurl:.php.txt
+
+## Bonus:
+ github dorks
+- “target.com” “dev”
+- “dev.target.com”
+- “target.com” API_key
+- “target.com” password
+- “api.target.com”
+
+## Some osam bughunting report related with google dork:
+
+https://omespino.com/write-up-twitter-bug-bounty-my-1st-bugbounty-poodle-sslv3-bug-on-multiple-twitter-smtp-servers/
+
+http://index-of.co.uk/Various/google-hacking-for-penetration-testers-2e-chapter-9.pdf
+
+https://infosecwriteups.com/information-disclosure-at-paypal-and-xoom-paypal-acquisition-via-simple-google-dork-1-000-usd-b726fe628a05
+
+🙂🙂🙂🙂
 
