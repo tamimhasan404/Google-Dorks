@@ -166,7 +166,7 @@ But sometimes it's give you really osam thing
 - “target.com” password
 - “api.target.com”
 
-## Some osam bughunting report related with google dork:
+## Some awesome bughunting report related with google dork:
 
 https://omespino.com/write-up-twitter-bug-bounty-my-1st-bugbounty-poodle-sslv3-bug-on-multiple-twitter-smtp-servers/
 
