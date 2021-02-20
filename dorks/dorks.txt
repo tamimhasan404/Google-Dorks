@@ -58,7 +58,7 @@ Google Dorks:
 - login * password =* filetype:xls            
                                              |       
 - intitle:"Index of..etc" passwd                   ------>>> 💥Password Related Dorks
-                                             |                                                                                                                |
+                                             |                                                                                                                
 - index of.etc                               
 ---------------------------------------------|
 
@@ -102,7 +102,7 @@ Google Dorks:
 - cache:websitename.com     --->>>  Cache related report  https://hackerone.com/reports/3986
 
 ------------------------------------------|
-- intitle:”index of” api_key|
+- intitle:”index of” api_key
                                           |                                                                                            
 - intitle:”index of” api key                            
                                           |                                                                                          
