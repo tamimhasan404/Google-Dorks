@@ -122,9 +122,7 @@ Google Dorks:
 - site:.edu filetype:xls inurl:"email.xls"     |
                                                
 - site:target.com inurl:'@yahoo.com'           |         
-                                                     ---->>> Email related dorks
-- site:target.com inurl:'@yahoo.com'           |
-
+                                                     ---->>> Email related dork           |
 - site:target.com inurl:'@live.com'            |
 
 - site:target.com inurl:'@gmail.com'           |
