@@ -5,6 +5,9 @@
 
 # Read for better understand
 
+- # What Is Google Dork
+-  In simple word it is a techniques to find exact information from google ocean.
+
 `filetype:xls` 
 
 It's means An document file is the standard file extension for any document constructed in the Microsoft Excel software program. It is one of very few document file types that handles spreadsheet documents.
