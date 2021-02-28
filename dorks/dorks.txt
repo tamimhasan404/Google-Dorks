@@ -62,7 +62,7 @@ Google Dorks:
 - index of.etc                               
 ---------------------------------------------|
 
-- Site:*.example.com inurl:redirect | inurl:redirect_to | inurl:redirect_uri  ------>>> Dork related with redirection (related report https://medium.com/@nandwanajatin25/story-of-a-uri-based-xss-with-some-simple-google-dorking-e1999254aa55)
+- site:*.example.com inurl:redirect | inurl:redirect_to | inurl:redirect_uri  ------>>> Dork related with redirection (related report https://medium.com/@nandwanajatin25/story-of-a-uri-based-xss-with-some-simple-google-dorking-e1999254aa55)
 
 - site:target.com filetype:php | filetype:aspx | filetype:swf | filetype:log | filetype:env | filetype:xls | index.php |
 
