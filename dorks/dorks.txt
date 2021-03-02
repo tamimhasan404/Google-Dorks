@@ -66,6 +66,8 @@ Google Dorks:
 
 - site:target.com filetype:php | filetype:aspx | filetype:swf | filetype:log | filetype:env | filetype:xls | index.php |
 
+- site:*.xyz.com -www -dev   --->>> Search for a specific domain then minus the discovered sudomains one by one for findig new subdomains
+
 - ext:php | intitle:phpinfo "published by the PHP Group"
 
 - site:target.com filetype:aspx
