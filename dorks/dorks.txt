@@ -149,7 +149,6 @@ Google Dorks:
 
 - site:xyz.com ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv | ext:txt | ext:html | ext:php
 
-ext:txt
 
 Note: In most cases you will find robots.txt or nothing 
 
