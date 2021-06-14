@@ -141,7 +141,7 @@ Google Dorks:
 -----------------------------------------------|
 # To find admin panel
 
-site:*.xyz.com inurl:login | inurl:sign-in | inurl:index.php | inurl:controlpanel.php | inurl:admin | inurl:administrator
+- site:*.xyz.com inurl:login | inurl:sign-in | inurl:index.php | inurl:controlpanel.php | inurl:admin | inurl:administrator
 
 - site: target.com inurl:login.php         
 - site: target.com intext: “login”      
