@@ -118,13 +118,23 @@ Google Dorks:
 - intitle:”index of” api key                            
                                           |                                                                                          
 - intitle:”index of” apiKey                                              
-                                          |   ------>>>   API Related dorks                                                                       
+                                          |   ------>>>   API related dorks                                                                       
 - site:target.com inurl:api_key 
                                           |
 - api.target.com 
                                           |
 - api.*target.com                                                            
 ------------------------------------------|
+
+------------------------------------------------|
+                                                |                                            
+- intitle:"Dashboard [Jenkins]"                 |     
+- filetype:xml config.xml passwordHash Jenkins  |    ---------->>> Jenkins related dorks
+- intitle:"Dashboard [Jenkins]" Credentials     |
+- inurl:"/jenkins/login" "Page generated"       |
+                                                |
+------------------------------------------------|
+
 
 -----------------------------------------------|
 - site:target.com inurl:email                  |                                                                                                                                                                                           
