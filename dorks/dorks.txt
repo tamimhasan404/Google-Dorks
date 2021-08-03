@@ -138,10 +138,15 @@ Google Dorks:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-site:*/JIRA/login                                                                                                                                      |
+inurl:xyz intitle:JIRA login                                                                                                                           |
+
+site:*/JIRA/login
+                                                                                                                                                       |
 intitle:"Log In JIRA" inurl:"8080:/login.jsp"
-intext:"Welcome to JIRA" "Powered by a free Atlassian Jira community"                                                                                  |--->> JIRA related dorks
-inurl:Dashboard.jspa intext:"Atlassian Jira Project Management Software"
+
+intext:"Welcome to JIRA" "Powered by a free Atlassian Jira community"                                                                                  | --->> JIRA related dorks
+
+inurl:Dashboard.jspa intext:"Atlassian Jira Project Management Software"                                                                               |                                                                   
 inurl:/secure/ContactAdministrators!default.jspa intext:"Request Details" -intext:"Your Jira administrator has not yet configured this contact form"   |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------|
