@@ -140,8 +140,6 @@ Google Dorks:
 
 inurl:xyz intitle:JIRA login                                                                                                                           |
 
-Jira login intext:v8.3.0 (for specific version)                                                                                                        |
-
 site:*/JIRA/login
                                                                                                                                                        |
 intitle:"Log In JIRA" inurl:"8080:/login.jsp"
