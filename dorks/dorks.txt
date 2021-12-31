@@ -166,8 +166,15 @@ inurl:/secure/ContactAdministrators!default.jspa intext:"Request Details" -intex
 - site:target.com inurl:'@gmail.com'           |
                                                                                       
 -----------------------------------------------|
-# To find admin panel
 
+------------------------------------------
+                                         |
+intitle:"Index of" inurl:wp-json          
+intitle:"Index of" inurl:wp-json/oembed  |  ----> CORS
+                                          
+-----------------------------------------|
+
+# To find admin panel
 - site:*.xyz.com inurl:login | inurl:sign-in | inurl:index.php | inurl:controlpanel.php | inurl:admin | inurl:administrator
 
 - site: target.com inurl:login.php         
