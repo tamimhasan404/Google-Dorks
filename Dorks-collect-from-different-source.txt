@@ -144,3 +144,4 @@ intitle:"Dashboards" AND inurl:"/zabbix/zabbix.php?action=dashboard.list"
 intitle:traefik inurl:8080/dashboard
 intext:"Powered by ViewVC" | intitle:"ViewVC Repository Listing"
 allintext:'HttpFileServer 2.3k'
+inurl:not for distribution | token | secret | confidential | “employee only” | proprietary | top secret | classified | trade secret | api key | internal | private ext:bak | zip | rar | pdf | txt | old | log | xml | csv | xml | xls
