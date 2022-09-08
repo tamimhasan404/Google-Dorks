@@ -189,6 +189,8 @@ intitle:"Index of" inurl:wp-json/oembed  |  ----> CORS
 
 - site:xyz.com ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv | ext:txt | ext:html | ext:php
 
+- site:xyz.com inurl:not for distribution | token | secret | confidential | “employee only” | proprietary | top secret | classified | trade secret | api key | internal | private ext:bak | zip | rar | pdf | txt | old | log | xml | csv | xml | xls
+
 
 Note: In most cases you will find robots.txt or nothing 
 
